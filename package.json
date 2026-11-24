@@ -1,0 +1,19 @@
+{
+  "name": "sscg-demo-app",
+  "version": "1.0.0",
+  "description": "Demo target for Supply Chain Guardian: deliberately outdated dependencies and risky patterns. Not malicious.",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "express": "4.17.1",
+    "lodash": "4.17.15",
+    "jsonwebtoken": "8.5.1",
+    "handlebars": "4.7.6",
+    "minimist": "1.2.5",
+    "axios": "0.21.1"
+  }
+}
